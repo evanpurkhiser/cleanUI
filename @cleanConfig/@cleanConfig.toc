@@ -1,0 +1,4 @@
+## Interface: 40000
+## Title: CleanConfig
+
+@cleanConfig.lua

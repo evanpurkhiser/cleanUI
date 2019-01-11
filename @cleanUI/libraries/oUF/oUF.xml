@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file='ouf.lua' />
+
+	<Script file='drivers\health.lua' />
+	<Script file='drivers\power.lua' />
+	<Script file='drivers\cpoints.lua' />
+	<Script file='drivers\ricons.lua' />
+	<Script file='drivers\aura.lua' />
+	<Script file='drivers\castbar.lua' />
+	<Script file='drivers\statusIcons.lua' />
+	<Script file='drivers\statusText.lua' />
+	<Script file='drivers\name.lua' />
+	<Script file='drivers\threat.lua' />
+	<Script file='drivers\vehicle.lua' />
+
+	<!-- Clique support -->
+	<Button name="oUF_ClickCastUnitTemplate" virtual="true" inherits="SecureActionButtonTemplate,SecureHandlerEnterLeaveTemplate">
+		<Attributes>
+			<Attribute name="_onenter" type="string" value="local snippet = self:GetAttribute('clickcast_onenter'); if snippet then self:Run(snippet) end"/>
+			<Attribute name="_onleave" type="string" value="local snippet = self:GetAttribute('clickcast_onleave'); if snippet then self:Run(snippet) end"/>
+		</Attributes>
+	</Button>
+</Ui>

@@ -1,0 +1,32 @@
+## Interface: 40000
+## Title: CleanUI
+
+## Initalize
+initialization.lua
+configurations.lua
+
+## Load Helpers
+helpers\events.lua
+helpers\slashCmds.lua
+helpers\formatting.lua
+helpers\color.lua
+helpers\widgets.lua
+
+## Load Libraries
+libraries\oUF\oUF.xml
+
+## Load Modules
+modules\actionBars.lua
+modules\actionButtons.lua
+modules\automation.lua
+modules\buffs.lua
+modules\chat.lua
+modules\cooldowns.lua
+modules\experience.lua
+modules\map.lua
+modules\minimap.lua
+modules\nameplates.lua
+modules\tooltip.lua
+modules\unitFrames.lua
+##modules\bags.lua
+##modules\tracker.lua
